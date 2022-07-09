@@ -1,10 +1,11 @@
 {
-  "Post": {
+  "Post": [{
+    "id: 1,
     "title": "Test",
     "comments": {
       "hasMany": "Comment"
     }
-  },
+  }],
   "Comment": {
     "body": "Some comment",
     "post": {
